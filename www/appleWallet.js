@@ -28,6 +28,24 @@ var AppleWallet = {
             }, PLUGIN_NAME, 'available', []);
         });
     },
+    /**
+     * @function isPairedWatchExist
+     * @description find out if there is any paired Watches so that show and hid add to watch button
+     * @param {Function} [successCallback] - Optional success callback, recieves message object.
+     * @param {Function} [errorCallback] - Optional error callback, recieves message object.
+     * @returns {Promise}
+     */
+    isPairedWatchExist: function(successCallback, errorCallback) {
+        return new Promise(function(resolve, reject) {
+            exec(function(message) {
+                executeCallback(successCallback, message);
+                resolve(message);
+            }, function(message) {
+                executeCallback(errorCallback, message);
+                reject(message);
+            }, PLUGIN_NAME, 'isPairedWatchExist', []);
+        });
+    },
 
     /**
      * @function startAddPaymentPass
@@ -66,6 +84,19 @@ var AppleWallet = {
             }, PLUGIN_NAME, 'completeAddPaymentPass', [someData]);
         });
     },
+
+    eligibilityAddingToWallet: function(someData, successCallback, errorCallback) {
+        return new Promise(function(resolve, reject) {
+            exec(function(message) {
+                executeCallback(successCallback, message);
+                resolve(message);
+            }, function(message) {
+                executeCallback(errorCallback, message);
+                reject(message);
+            }, PLUGIN_NAME, 'eligibilityAddingToWallet', [someData]);
+        });
+    },
+
 }
 
 module.exports = AppleWallet;
