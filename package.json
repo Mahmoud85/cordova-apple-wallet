@@ -1,26 +1,54 @@
 {
-  "name": "cordova-apple-wallet",
-  "version": "1.0.2",
-  "description": "This plugin allows you to add passes and credit cards to Apple Wallet",
+  "_from": "cordova-apple-wallet@^1.0.0",
+  "_id": "cordova-apple-wallet@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-eRZWqpHo729INZK0SwnP4gjsKYIHuNCHvXwIHtmPfbSGUAvsIk66SBPE/X52xu/MJ2V8297NrLcej0E17AC+Vg==",
+  "_location": "/cordova-apple-wallet",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-apple-wallet@^1.0.0",
+    "name": "cordova-apple-wallet",
+    "escapedName": "cordova-apple-wallet",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-apple-wallet/-/cordova-apple-wallet-1.0.0.tgz",
+  "_shasum": "1f20a105a68fbf70e85404c6de5b61b5a9b53d53",
+  "_spec": "cordova-apple-wallet@^1.0.0",
+  "_where": "/Users/usertest/Desktop/Apple Pay ٢٧-٩-٢٠١٨ latest work by hatem/Mobile App/AlRajhiBankMobile",
+  "author": {
+    "name": "TOoma | Designes"
+  },
+  "bugs": {
+    "url": "https://github.com/tomavic/cordova-apple-wallet/issues"
+  },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-apple-wallet",
     "platforms": [
       "ios"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tomavic/cordova-apple-wallet.git"
-  },
+  "deprecated": false,
+  "description": "This plugin allows you to add passes and credit cards to Apple Wallet",
+  "homepage": "https://github.com/tomavic/cordova-apple-wallet#readme",
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios"
   ],
-  "main": "www/appleWallet.js",
-  "author": "TOoma | Designes",
   "license": "Apache 2.0",
-  "bugs": {
-    "url": "https://github.com/tomavic/cordova-apple-wallet/issues"
+  "main": "www/appleWallet.js",
+  "name": "cordova-apple-wallet",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomavic/cordova-apple-wallet.git"
   },
-  "homepage": "https://github.com/tomavic/cordova-apple-wallet#readme"
+  "version": "1.0.0"
 }
